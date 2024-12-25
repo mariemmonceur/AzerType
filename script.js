@@ -1,10 +1,23 @@
-const motApplication="Bonjour";
-let motUtilisateur=prompt("entrer un mot");
-console.log(motUtilisateur)
+const listeMots=["Cachalot","Pétunia","Serviette"];
+var score =0;
 
-if(motUtilisateur === motApplication){
-    console.log("bravo vous avez correctement tapé le mot")
-
-}else{
-    console.log("echec le mot nest pas correct")
+let mot1=prompt("ecrit un mot 1 :")
+if(mot1 === listeMots[0])
+{
+    score++;
 }
+
+let mot2=prompt("ecrit un mot 2 :")
+if(mot2 === listeMots[1])
+{
+    score++;
+}
+
+let mot3=prompt("ecrit un mot 3 :")
+if(mot3 === listeMots[2])
+{
+    score++;
+}
+console.log(score);
+
+
