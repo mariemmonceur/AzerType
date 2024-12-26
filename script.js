@@ -27,5 +27,11 @@ while(type !== "mots" && type !== "phrases")
                 }
             break;
             }
+ function genereMessageScore(scores)
+    {
+     let message ="votre score est "+scores;
+     return message;
+    }
+let message=genereMessageScore(score)
 
 console.log(score);
