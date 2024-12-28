@@ -9,6 +9,47 @@
     <script src="scripts/main.js"  defer ></script>
 </head>
 <body>
-    <div id="zoneProposition">entrer votre nom <span>chachalot</span> </div>
+    <header>
+        <h1>AzerType</h1>
+        <h2>L'application pour écrire plus vite !</h2>
+        <h3>AzerType est une application en ligne pour apprendre à taper plus vite au clavier :)</h3>
+    </header>
+    <main>
+        <div>
+            <p>Choisissez votre option et tapez la proposition qui s'affiche dans le champ en-dessous.</p>
+            <div>
+                <input type="radio" name="optionSource" id="mots" value="1" checked>
+                <label for="mots">Mots</label>
+                <input type="radio" name="optionSource" id="phrases" value="2">
+                <label for="phrases">Phrases</label>
+            </div>  
+        </div>
+        <div>
+            Azerty  
+        </div>
+        <div>
+            <input type="text" id="inputEcriture" name="inputEcriture">
+            <button id="btnValiderMot">Valider</button> 
+        </div>
+        <div>
+            Votre score : <span>0</span>
+        </div>
+        <div>
+            <button>partager</button>
+        </div>
+    </main>
+    <footer>
+        @Copyright : mariemmonceur. 
+    </footer>
+
+    <div class="zoneChoix">
+        <label for="mots">mots</label>
+        <input type="radio" name="optionSource" id="mots" value="1" checked>
+        <label for="phrases">phrases</label>
+        <input type="radio" name="optionSource" id="phrases" value="2">
+    </div>
+    <div class="zoneProposition">
+        Entrer le mot : <span>Cachalot</span>
+    </div>
 </body>
 </html>
