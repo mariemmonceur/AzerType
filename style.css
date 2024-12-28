@@ -1,0 +1,83 @@
+*{
+    
+  text-align: center;
+
+}
+body {
+    --color-primary: #f76c5e;
+    --color-secondary: #f68e5f;
+    --color-tertiary: #ffeee6;    
+}
+
+h1{
+    margin: 10px;
+    font-size: 60px;
+    font-weight: 900;
+    color: var(--color-primary);
+
+}
+h2 {
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--color-secondary);
+}
+
+h3 {
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--color-secondary);
+}
+input[type='radio'] {
+    filter: grayscale(1); /* Grayscale passe le bouton en niveau de gris */
+}
+
+input[type='text'],
+input[type='email'] {
+    width: 100%;
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    font-size: 17px;
+    color: var(--color-primary);
+}
+input[type='text']::placeholder,
+input[type='email']::placeholder {
+    color: var(--color-secondary);
+    opacity: 50%;
+}
+
+button {
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: var(--color-secondary);
+    background-color: white;
+}
+button:hover {
+    color:  var(--color-tertiary);
+    background-color: var(--color-tertiary);
+    cursor: pointer;
+}
+button:focus {
+    background-color: var(--color-tertiary);
+    border: 3px solid var(--color-primary);
+    padding: 2px;
+    
+}
+main{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 143, 72) ;
+   padding: 0px;
+   margin: 10px 70px 10px 70px;
+   border-radius: 8px;
+   padding:20px;
+}
