@@ -1,3 +1,6 @@
 let balise =document.getElementById("zoneProposition")
 console.log(balise)
-lancerJeu()
+let baliseQuery= document.querySelector("#zoneProposition span")
+console.log(baliseQuery)
+
+//lancerJeu()
