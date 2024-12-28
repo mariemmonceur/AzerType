@@ -1,3 +1,3 @@
 let balise =document.getElementById("zoneProposition")
-console.log()
+console.log(balise)
 lancerJeu()
