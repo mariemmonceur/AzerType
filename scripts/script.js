@@ -25,8 +25,11 @@ function lancerBoucleDeJeu(liste)
 }
 function afficherResultat(scores,nb)
     {
-     let message ="votre score est "+scores+ " sur "+nb;
-     console.log(message)
+     
+     let a = document.querySelector(".box2 span")
+     let b=`<span>${scores}</span>`
+     a.innerHTML=b
+   
     }
 
 function lancerJeu (){
