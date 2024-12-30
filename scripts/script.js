@@ -27,7 +27,7 @@ function afficherResultat(scores,nb)
     {
      
      let a = document.querySelector(".box2 span")
-     let b=`<span>${scores}</span>`
+     let b=`<span>${scores} / ${nb}</span>`
      a.innerHTML=b
    
     }

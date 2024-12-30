@@ -1,7 +1,6 @@
 *{
     
-  text-align: center;
-
+  
 }
 body {
     --color-primary: #f76c5e;
@@ -14,6 +13,8 @@ h1{
     font-size: 60px;
     font-weight: 900;
     color: var(--color-primary);
+    text-align: center;
+
 
 }
 h2 {
@@ -21,6 +22,8 @@ h2 {
     font-size: 30px;
     font-weight: 600;
     color: var(--color-secondary);
+    text-align: center;
+
 }
 
 h3 {
@@ -28,6 +31,8 @@ h3 {
     font-size: 17px;
     font-weight: 500;
     color: var(--color-secondary);
+    text-align: center;
+
 }
 input[type='radio'] {
     filter: grayscale(1); /* Grayscale passe le bouton en niveau de gris */
@@ -80,9 +85,16 @@ main{
    margin: 10px 70px 10px 70px;
    border-radius: 8px;
    padding:20px;
+   text-align: center;
+
 }
 .box{
     display: flex;
   
    
+}
+.b{
+    margin: 0;
+
+  
 }
