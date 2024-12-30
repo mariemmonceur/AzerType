@@ -9,5 +9,18 @@ for (let i=0 ;i< b.length;i++)
 {
     console.log(b[i])
 }
-
 //lancerJeu()
+
+let a = document.getElementById("inputEcriture")
+let c = document.getElementById("btnValiderMot")
+console.log(a)
+console.log(c)
+let d=document.querySelector("span ")
+let e=document.querySelectorAll("button ")
+
+console.log(d)
+console.log(e)
+
+
+
+
